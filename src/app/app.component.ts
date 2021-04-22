@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import {Receipe} from './model/receipe';
 
 @Component({
   selector: 'app-root',
@@ -7,4 +8,8 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'receipeApp';
+  recipe: Receipe;
+  constructor() {
+    this.recipe = new Receipe('Banana Bread', 'Banana bread is good', null, null, null);
+  } 
 }
