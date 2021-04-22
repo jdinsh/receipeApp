@@ -11,5 +11,6 @@ export class AppComponent {
   recipe: Receipe;
   constructor() {
     this.recipe = new Receipe('Banana Bread', 'Banana bread is good', null, null, null);
-  } 
+  }
+
 }
