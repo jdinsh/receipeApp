@@ -1,0 +1,9 @@
+<div class="recipe card" style="width: 500px">
+  <h5 class="card-header">{{recipe.title}}</h5>
+  <div class="card-body">
+    <div style="float: right">
+      <img src="{{this.recipe.cover_photo ? this.recipe.cover_photo: '/assets/banana_bread.png'}}" style="width: 150px;height: 150px; margin: 5px "/>
+    </div>
+    <p>{{recipe.description}}</p>
+  </div>
+</div>
