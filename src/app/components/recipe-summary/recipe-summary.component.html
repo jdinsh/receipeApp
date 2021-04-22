@@ -5,5 +5,11 @@
       <img src="{{this.recipe.cover_photo ? this.recipe.cover_photo: '/assets/banana_bread.png'}}" style="width: 150px;height: 150px; margin: 5px "/>
     </div>
     <p>{{recipe.description}}</p>
+    <div>
+      <div style="float:left;font-weight: bold; width: 150px">Preparation Time:</div>
+      <div>{{recipe.preparation_time}}</div>
+      <div style="float:left;font-weight: bold; width: 150px">Feeds this many:</div>
+      <div>{{recipe.feed_this_many}}</div>
+    </div>
   </div>
 </div>

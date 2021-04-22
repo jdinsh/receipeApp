@@ -10,9 +10,9 @@ export class RecipeListComponent  {
   recipes: Receipe[];
   constructor() {
     this.recipes = [
-      new Receipe('Banana Bread', 'Banana bread is good', null, null, null),
-      new Receipe('Farmstead Tofu', 'Farmstead Tofu is good', null, null, null),
-      new Receipe('Pasta Carbornar', 'Banana bread is good', null, null, null)
+      new Receipe('Banana Bread', 'Banana bread is good', 4, 60, null, null, null),
+      new Receipe('Farmstead Tofu', 'Farmstead Tofu is good', 5, 30, null, null, null),
+      new Receipe('Pasta Carbornar', 'pasta is good', 10, 10, null, null, null)
     ];
   }
 
