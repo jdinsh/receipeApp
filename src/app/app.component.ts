@@ -8,9 +8,6 @@ import {Receipe} from './model/receipe';
 })
 export class AppComponent {
   title = 'receipeApp';
-  recipe: Receipe;
-  constructor() {
-    this.recipe = new Receipe('Banana Bread', 'Banana bread is good', null, null, null);
-  }
+
 
 }
